@@ -79,9 +79,11 @@ const CartPage = () => {
             <div>$ {cart.total}</div>
           </div>
           <div>
-            <button className="bg-[#A6CAF7] px-12 py-2 rounded-2xl font-light text-lg  ">
-              Checkout
-            </button>
+           <Link to="/checkout">
+              <button className="bg-[#A6CAF7] px-12 py-2 rounded-2xl font-light text-lg  ">
+                Checkout
+              </button>
+            </Link>
           </div>
         </div>
       </div>
